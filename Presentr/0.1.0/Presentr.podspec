@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/danlozanov"
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/icalialabs/Presentr.git", :tag => "0.1.0" }
-  s.source_files = "Presentr/Classes/*"
-  s.resources = "Presentr/Assets/*"
+  s.source_files = "Presentr/**/*.{swift}"
+  s.resources = "Presentr/**/*.{xib}"
 end
